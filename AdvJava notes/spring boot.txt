@@ -1,0 +1,14 @@
+Integration testing :
+	Entire flow of the program will be tested by creating a testing func in single class.
+	eg: if u call the controller method it will execute the entire program.
+
+Flow of spring boot prgm :
+Controller----->service------>repository----->database
+
+@Mock - will create a dummy obj for controller
+@InjectMock - all the dummy obj is injected to this service method bcz from controller it is injected to service
+mockinto.when(stmt to be executed).thenRun(dummyobj)
+//whenever it trigger the stmt to be executed it will use the dummy obj to check the func of tat prgm instead of going to repo and database to get the value
+
+Note:
+The method shd return the dummy obj with http status 

@@ -1,0 +1,70 @@
+To learn about maven go to this link...
+http://maven.apache.org/guides/getting-started/maven-in-five-minutes.html
+
+JENKINS PIPELINE:
+what are jenkin pipeline
+
+Jenkins is an automation engine which supports a no of automation patterns.
+It supports simple Contionous Integration to comprehensive CD Pipelines
+
+Pipeline Concepts:
+
+PIPELINE - has a series of sequence of commands which is a part of stages
+stages has a set of steps
+
+CI/CD pipeline:
+@----------------@----------------@
+Build-----------Test-------------Deploy
+these 3 are stages 
+@-->node 
+NODE - it can be randomly noted to slave
+eg : node1 - code execute
+node 2 - test
+node 3- deploy
+
+PIPELINE SCRIPTING :
+Types:
+Declarative pipline - always use declarative pipeline bcz it is refined and explicit
+Scripted pipeline (first developed by jenkin bt it is out dated).
+
+Declarative pipeline eg prgms:
+
+pipleine{
+agent any //any available Slave nodes for execution
+stages {
+stage('Build'){
+steps{
+sh 'make' //sh-shell bcz they are linux command 'make' is a msg
+}
+}
+stage('Test'){
+steps{
+//
+}
+}
+stage('Deploy'){
+steps{
+//
+}
+}
+}
+}
+
+-->pipeline(Declarative pipeline-specific) ->A pipelien's code defines ur entire build process,which typically includes stages for building an app,testing it and deleibvering it.
+
+-->agent ->defines jenkind =s to allocate an execeutor and a workspace for the entire pipeline
+
+-->steps-->single task
+
+-->junit is an another pipeline step(provided bu the junit plugin) for aggregating test reports
+
+-->node is a machine which is the part of the jenkin environment and is capable of executing a pipeline
+
+-->stage-->stage block defines a conceptual distinct subset of tasks peformes through the entire pipeline
+
+NOTE :
+use jenkins.io link to read more about pipeline
+
+
+
+

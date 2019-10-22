@@ -1,0 +1,14 @@
+1) Install plugins
+	* Maven Integration plugin
+	** Deploy to container plugin
+2) specify global tool config
+3) specify maven installation
+4) create maven project
+5) SCM (GIT)
+6) mention clean package 
+7)deploy war/ear files : **/*war
+context path : hello-world.war
+containers : Tomacat 9.*Remote
+credentials : admin
+8)Build the code
+9)u can see the deployed war file in tomcat server 

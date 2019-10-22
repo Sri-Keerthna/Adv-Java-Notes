@@ -1,0 +1,33 @@
+Kanban Fundamentals: Using Kanban in IT and Software Development  *******************
+
+Leveraging the JIRA Platform for Development Projects  ********************
+
+Planning an Agile Software Development Project  *********************
+
+Managing Agile Software Development  ********************
+
+01.Agile Foundation: Basics of Agile  ****************
+
+Test for Core Banking I  *****************
+
+Test for Core Banking II  ********************
+
+Test for Core Banking III *************************
+
+Test: Core Banking II
+
+Test: Core Banking
+
+02. Agile Foundation: Assessment for Basics of Agile  **************************
+
+Core Banking I  ***********************
+
+Core Banking II  ***********************
+
+Core Banking III ***********************
+
+Core Banking Basics - 1 *************************
+
+Core Banking Basics - 2 ***************************
+
+Test: Core Banking I

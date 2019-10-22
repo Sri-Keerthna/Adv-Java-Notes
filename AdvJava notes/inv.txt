@@ -1,0 +1,2 @@
+<td><a href="SearchStock.jsp?stockid=<%=rs.getInt("stockid") %>" >Search</a></td>
+<td><a href="PlaceOrder.jsp?stockid=<%=rs.getInt("stockid") %>">Place Order</a></td>

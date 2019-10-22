@@ -1,0 +1,17 @@
+C:\Users\coalesce>cd c:/jenkins
+
+c:\jenkins>java -jar jenkins.war --httpPort=9089
+
+/* steps for uploading files in github*/
+
+D:\hcljava>git init
+
+D:\hcljava>git remote add origin https://github.com/Sri-Keerthna/Mode2Training
+
+D:\hcljava>git status
+
+D:\hcljava>git add Helloworld.java or to add entire folder give command as git add .
+
+D:\hcljava>git commit -m "In Day1 Java Programs"
+
+D:\hcljava>git push -u origin master

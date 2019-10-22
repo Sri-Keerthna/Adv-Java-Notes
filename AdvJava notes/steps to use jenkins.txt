@@ -1,0 +1,7 @@
+1) install gitbash
+2) download jenkins.war (Generic war package) file from jenkins.io
+3) java -jar jenkins.war --httpPort=9080  //if u want ur jenkins to run on diff port
+4) show u a jenkins admin password //password will be in hexadecimal and u have to save tat password in notepad 
+//bcz 2nd time it wont show and it can be seen in below link
+5) initialadminpassword/secrets
+6)suggestible installation (login with dummy username and email id)

@@ -1,0 +1,7 @@
+http://localhost:8181/ServletDemos/HelloServlet
+
+SK : http://192.168.1.122:8181/ServletDemos/
+
+Nivetha : http://192.168.1.125:8181/ServletDemos/Helloservlet
+
+Visalakshi : http://192.168.1.119:8181/ServletDem/HelloServlet

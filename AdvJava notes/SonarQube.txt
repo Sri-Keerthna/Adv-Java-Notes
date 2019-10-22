@@ -1,0 +1,20 @@
+It collects and analyse source code,measuring quality,providing reports for ur project 
+Continously enabled quality to be measured over time
+
+SonarQube addresses code rules,test coverage,duplication,API documentation.
+
+NOTE :
+To learn more about it use this link......
+1) sonarqube.org
+2) sonarlint.org
+
+Sonarlint for best code practise use it with eclipse and it will automatically tell the code corrections
+
+sonarcloud.io - quality gates(bugs,vulnerabilities,coverage,code smells,duplication) and quality profiles(rules)
+
+code smells-->probable errors that come in future which may turn into major issue in future
+
+Technical Debt-->timetaken to fix a bugs,issues.It is always measured in days
+
+jenkin default port no 8080 
+sonarqube default port no 9000
